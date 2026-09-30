@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#45220f">
+  <title>The Grind | Menu</title>
+  <meta name="description" content="The Grind Coffee Shop menu in Salt River, Cape Town.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234a1d08'/%3E%3Cpath d='M16 22h28v18a10 10 0 0 1-10 10H26a10 10 0 0 1-10-10V22Z' fill='none' stroke='%23f7f1e8' stroke-width='4'/%3E%3Cpath d='M44 28h5a7 7 0 0 1 0 14h-5' fill='none' stroke='%23f7f1e8' stroke-width='4'/%3E%3C/svg%3E">
+  <style>
+    :root { --brown: #45220f; --paper: #f7f3ed; --cream: #fffdf9; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--brown); color: var(--paper); font-family: Georgia, 'Times New Roman', serif; }
+    header { padding: 18px 16px 15px; text-align: center; background: var(--brown); }
+    header p { margin: 0; color: #ead8c0; font: 700 .68rem/1 Arial, sans-serif; letter-spacing: .22em; text-transform: uppercase; }
+    header h1 { margin: 5px 0 0; font-size: 1.55rem; letter-spacing: .07em; font-weight: 400; }
+    nav { position: sticky; top: 0; z-index: 2; display: flex; gap: 18px; overflow: auto; padding: 12px 16px; background: #fffdf9f5; border-bottom: 1px solid #d8c2aa; white-space: nowrap; font: 700 .76rem Arial, sans-serif; }
+    nav a { color: var(--brown); text-decoration: none; }
+    main { max-width: 720px; margin: 0 auto; padding: 12px 8px 26px; }
+    section { scroll-margin-top: 52px; margin: 0 0 12px; background: var(--cream); box-shadow: 0 8px 24px #160a0550; }
+    section img { display: block; width: 100%; height: auto; }
+    footer { padding: 20px; text-align: center; color: #f2dfc6; background: var(--brown); font: .84rem/1.55 Arial, sans-serif; }
+    footer strong { font-family: Georgia, serif; letter-spacing: .12em; }
+    footer a { color: #fff; font-weight: 700; }
+    .order { position: fixed; right: 15px; bottom: 15px; z-index: 3; padding: 13px 17px; border-radius: 999px; background: #25d366; color: #062b13; box-shadow: 0 5px 18px #0008; text-decoration: none; font: 700 .85rem Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <header>
+    <p>The Grind Coffee Shop · Salt River</p>
+    <h1>Our Menu</h1>
+  </header>
+  <nav aria-label="Menu sections">
+    <a href="#coffee">Coffee</a><a href="#cold">Cold drinks</a><a href="#breakfast">Breakfast</a><a href="#lunch">Lunch</a><a href="#sandwiches">Sandwiches</a><a href="#treats">Treats</a>
+  </nav>
+  <main>
+    <section id="coffee" aria-label="Coffee and hot drinks"><img src="menu-drinks-hot.jpg" alt="The Grind coffee, hot chocolate and tea menu"></section>
+    <section id="cold" aria-label="Cold drinks"><img src="menu-drinks-cold.jpg" alt="The Grind smoothies and cold drinks menu" loading="lazy"></section>
+    <section id="breakfast" aria-label="Breakfast"><img src="menu-breakfast.jpg" alt="The Grind breakfast menu" loading="lazy"></section>
+    <section id="lunch" aria-label="Lunch"><img src="menu-lunch.jpg" alt="The Grind lunch menu" loading="lazy"></section>
+    <section id="sandwiches" aria-label="Sandwiches"><img src="menu-sandwiches.jpg" alt="The Grind sandwiches menu" loading="lazy"></section>
+    <section id="treats" aria-label="Treats"><img src="menu-treats.jpg" alt="The Grind treats menu" loading="lazy"></section>
+  </main>
+  <footer><strong>THE GRIND</strong><br>322 Victoria Road, Salt River, Cape Town<br><a href="https://wa.me/27782171542">Order ahead on WhatsApp: +27 78 217 1542</a></footer>
+  <a class="order" href="https://wa.me/27782171542" aria-label="Order ahead on WhatsApp">Order on WhatsApp</a>
+</body>
+</html>
